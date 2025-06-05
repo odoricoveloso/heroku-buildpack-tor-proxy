@@ -1,5 +1,9 @@
 #!/bin/bash
 
+sleep 300 # Espera 5 minutos antes de iniciar o Tor
+
+# Inicia o Tor como um processo em segundo plano
+
 /app/tor/bin/run_tor_proxy &
 
 # Aguarda o Tor iniciar
