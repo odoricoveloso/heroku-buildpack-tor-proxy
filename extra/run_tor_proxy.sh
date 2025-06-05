@@ -3,7 +3,7 @@
 /app/tor/bin/run_tor_proxy &
 
 # Aguarda o Tor iniciar
-sleep 10
+sleep 300 # Espera 5 minutos para garantir que o Tor esteja totalmente iniciado
 
 # Loop para enviar NEWNYM a cada 2 minutos
 while true; do
