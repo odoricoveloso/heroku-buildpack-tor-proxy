@@ -9,5 +9,6 @@ sleep 10
 while true; do
   # Envia o comando NEWNYM para a porta de controle do Tor
   echo -e "AUTHENTICATE \"torProxy@123\"\r\nSIGNAL NEWNYM\r\nQUIT\r\n" | nc 127.0.0.1 9051
-  sleep 120
+  sleep 300 # Espera 5 minutos antes de enviar o próximo NEWNYM
+  echo "Sent NEWNYM signal to Tor"
 done
