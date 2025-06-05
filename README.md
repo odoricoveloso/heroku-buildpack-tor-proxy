@@ -15,7 +15,7 @@ With this buildpack installed, Tor Proxy runs automatically on the port: 9050.
 Create a new Heroku app with this buildpack (through the [Heroku CLI][2]):
 
 ```shell
-heroku create --buildpack "https://github.com/iamashks/heroku-buildpack-tor-proxy.git"
+heroku create --buildpack "https://github.com/odoricoveloso/heroku-buildpack-tor-proxy.git"
 ```
 
 #### Or, add this buildpack to an existing app
@@ -25,7 +25,7 @@ heroku create --buildpack "https://github.com/iamashks/heroku-buildpack-tor-prox
 2] Then, add this buildpack in your app (through the [Heroku CLI][2]):
 
 ```shell
-$ heroku buildpacks:add https://github.com/iamashks/heroku-buildpack-tor-proxy.git
+$ heroku buildpacks:add https://github.com/odoricoveloso/heroku-buildpack-tor-proxy.git
 ```
 
 ## Variables
