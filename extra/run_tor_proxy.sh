@@ -1,3 +1,3 @@
 #!/bin/bash
 
-/app/tor/bin/run_tor_prox
+/app/tor/bin/run_tor_proxy
